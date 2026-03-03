@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html , body{
+            height: 100%;
+            width: 100%;
+        }
+        .container
+        {
+            display: flex;
+            margin: 200px;
+        }
+        .left{
+            width: 50%;
+            height: 300px;
+            /* background-color: red; */
+            background: url(bg.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px 100px;
+        }
+        .left h1{
+            width: 300px;
+            font-size: 50px;
+        }
+        .left ul{
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        .right{
+            width: 50%;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="text-content">
+                <h1>The perfect input kit</h1>
+                <ul>
+                    <li>Perfect padding</li>
+                    <li>Auto layout</li>
+                    <li>Customizable</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="form-container">
+                <form action="">
+                    <label for="">Email</label>
+                    <input type="email" id="email">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

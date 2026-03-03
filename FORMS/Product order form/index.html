@@ -1,68 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="headings">
-            <h1>
+      <div class="product_container">
+        <!-- <p>Products</p> -->
 
-                Product Order Form
-            </h1>
-            <p>
-                Please make sure to fill in the required fields and submit this form to complete your order.
-            </p>
+        <div class="image_container">
+          <div class="img_1">
+            <input type="checkbox" name="" id="checkbox" />
 
-        </div>
+            <p class="text">T-Shirt</p>
+            <p class="price">$3.5</p>
+          </div>
 
-        <div class="product_container">
+          <div class="qty">
+            <p class="text_qty">Quantity</p>
+            <select name="" id="">
+              <option value="1">1</option>
+            </select>
 
-            <p>Products</p>
-
-            <div class="image_container">
-
-                <div class="img_1">
-                    <input type="checkbox" name="" id="checkbox">
-
-
-                    <p class="text">T-Shirt</p>
-                    <p class="price">$3.5</p>
-
-                </div>
-
-                <div class="qty">
-                    <p class="text_qty">Quantity</p>
-                    <select name="" id="">
-                        <option value="1">1</option>
-                    </select>
-
-                    <div class="color">
-                        <p class="text_color">Color</p>
-                        <select name="" id="col">
-                            <option value="Green">Green</option>
-                        </select>
-                    </div>
-
-                    <div class="color">
-                        <p class="text_color">Size</p>
-                        <select name="" id="col">
-                            <option value="Green">XL</option>
-                        </select>
-                    </div>
-                </div>
-
+            <div class="color">
+              <p class="text_color">Color</p>
+              <select name="" id="col">
+                <option value="Green">Green</option>
+              </select>
             </div>
+
+            <div class="color">
+              <p class="text_color">Size</p>
+              <select name="" id="col">
+                <option value="Green">XL</option>
+              </select>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
-
-
-</body>
-
+  </body>
 </html>
