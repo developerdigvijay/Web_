@@ -3,67 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="signup.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="pic">
-
-        </div>
-        <div class="sign_up">
-            <div class="cen">
-                <h1>Sing up</h1>
-            </div>
-            <form action="">
-                <table>
-                    <tr>
-                        <td>
-                            <label for="">Fullname</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input size="30" type="text" name="" id="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="">Email</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input size="30" type="email" name="" id="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="">Password</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input size="30" type="password" name="" id="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <button><b>Sign up</b></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            I've an account 
-                            <button class="log_in">Login</button>
-                        </td>
-                    </tr>
-
-                </table>
+        <div class="signup-form">
+            <h1>Create Account</h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit">Sign Up</button>
             </form>
+            <p class="login-link">Already have an account? <a href="#">Log In</a></p>
         </div>
     </div>
 </body>
